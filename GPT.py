@@ -62,7 +62,7 @@ training_args = TrainingArguments(
 )
 
 
-7. Initialize the Trainer
+#7. Initialize the Trainer
 trainer = Trainer(
     model=model,
     args=training_args,
@@ -71,15 +71,15 @@ trainer = Trainer(
 )
 
 
-8. Train the Model
+#8. Train the Model
 trainer.train()
 
-9. Save the Model
+#9. Save the Model
 model.save_pretrained("./fine_tuned_gpt2")
 tokenizer.save_pretrained("./fine_tuned_gpt2")
 
 
-10. Generate Text with the Fine-Tuned Model
+#10. Generate Text with the Fine-Tuned Model
 # Load the fine-tuned model
 fine_tuned_model = GPT2LMHeadModel.from_pretrained("./fine_tuned_gpt2")
 fine_tuned_tokenizer = GPT2Tokenizer.from_pretrained("./fine_tuned_gpt2")
