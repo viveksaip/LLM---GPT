@@ -1,6 +1,7 @@
 # LLM---GPT
 
 Project Overview:
+
 Objective: Fine-tuned GPT-2 for text generation, specifically for short story generation.
 Model: GPT-2 was chosen due to its ability to generate coherent, contextually aware text.
 
