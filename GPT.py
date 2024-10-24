@@ -97,3 +97,10 @@ generated_ids = fine_tuned_model.generate(inputs['input_ids'], max_length=100)
 # Decode the generated text
 generated_text = fine_tuned_tokenizer.decode(generated_ids[0], skip_special_tokens=True)
 print(generated_text)
+
+#Text Generation: After fine-tuning the model,
+#when you run the text generation part with the input "Once upon a time", 
+#the model will generate a continuation of that text. The output might look something like this:
+# "Once upon a time, in a land far away, there lived a brave knight who set out on a quest to rescue a princess from a fierce dragon..."
+
+#The exact wording will vary each time you run the generation due to the stochastic nature of the model
