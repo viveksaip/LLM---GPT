@@ -1,4 +1,4 @@
-# GPT-2 Fine-Tuning for LongSentence (Story/content) Generation
+# GPT-2 Fine-Tuning for LongSentence (Story/Content) Generation
 
 ## Project Overview
 - **Objective:** Fine-tuned GPT-2 for **text generation**, specifically for **short story generation**.
