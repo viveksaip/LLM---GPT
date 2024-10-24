@@ -34,6 +34,9 @@ dataset = load_dataset("wikitext", "wikitext-103-raw-v1")
 # Check the dataset structure
 dataset
 
+#smaller dataset
+#dataset = load_dataset("wikitext", "wikitext-2-raw-v1")
+
 
 #5. Tokenize the Dataset
 def tokenize_function(examples):
